@@ -21,6 +21,7 @@
   padding: 25px 35px;
   text-align: center;
   border: 2px solid white;
+  border-radius: 18px;
 }
 
 nav {
@@ -37,6 +38,10 @@ nav {
   line-height: 40px;
   color: #f53192;
   box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+ }
+
+ nav .circle i {
+  cursor: pointer;
  }
 
  .song-img {

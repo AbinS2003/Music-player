@@ -24,7 +24,7 @@
         <h1>Despacito</h1>
         <p>Louis Fonsi ft. Daddy Yankee</p>
 
-        <audio controls>
+        <audio id="song">
           <source src="media/11086_Luis Fonsi ft. Daddy Yankee - Despacito SHOW2BABI.COM.mp3" type="audio/mpeg">
         </audio>
 
@@ -32,12 +32,13 @@
 
         <div class="controls">
           <div><i class="fa-solid fa-backward"></i></div>
-          <div><i class="fa-solid fa-play"></i></div>
+          <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
           <div> <i class="fa-solid fa-forward"></i></div>
         </div>
       
 
     </div>
   </div>
+  <script src="scripts.js"></script>
 </body>
 </html>
