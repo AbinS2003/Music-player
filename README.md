@@ -15,8 +15,4 @@ A simple and stylish music player built with HTML, CSS, and JavaScript. The play
 - **CSS**: Styling for the player, including custom buttons, progress bar, and animations.
 - **JavaScript**: Logic to control playback, toggle icons, and update the progress bar.
 
-## Getting Started
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/music-player.git
